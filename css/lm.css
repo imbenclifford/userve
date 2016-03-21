@@ -1,0 +1,159 @@
+/*
+ *This css file styles the dropdown menu and contains the classes that make the login page visible or hidden
+ */
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+#menu{
+	max-width:500px;
+	height:40px;
+	margin:0px auto;
+	pointer-events: none;
+	opacity:0
+}
+#menu2, #menu3{
+	width:auto;
+	height:auto;
+	margin-top:-9000px;
+	position:absolute;
+	z-index:4;
+}
+#menu3{
+	margin-left:222px;
+	margin-top:-30px;
+	opacity:0;
+}
+.submenu{
+	float:left;
+	width:100px;
+	height:19px;
+	display:block;
+	text-align:center;
+	padding:5px 10px;
+	cursor: pointer;
+}
+
+.submenu2, .submenu3{
+	margin-top:-9000px;
+	margin-left:-50px;
+	display:block;
+	opacity:0;
+	background:#238fc7;
+	padding:15px 10px;
+	color:#fff;
+	font-size:15px;
+	cursor: pointer;
+	width:200px;
+}
+
+.submenu:hover{
+	background:#fff;
+}
+
+.submenu3{
+	//padding:0px 0px;
+	//width:auto;
+}
+
+.submenu3 a{
+	padding:15px 0px;
+	width:200px;
+	height:30px;
+}
+.submenu2:hover,
+.submenu3:hover{
+	background:#fff;
+	color:#238fc7;
+}
+
+.submenu:hover #menu2{
+	margin-top:5px;
+}
+
+.submenu:hover .submenu2{
+	margin-top:2px;
+	opacity:1;
+}
+.submenu2:hover #menu3{
+	margin-top:-35px;
+	opacity:1;
+}
+.submenu2:hover .submenu3{
+	margin-top:2px;
+	opacity:1;
+}
+
+.submenu3:hover a{
+	color:#238fc7;
+}
+
+.submenu2, .submenu3, #menu2, #menu3{
+	-webkit-transition:		all 0.5s cubic-bezier(0, 1.04, .25, 1);
+	   -moz-transition:		all 0.5s cubic-bezier(0, 1.04, .25, 1);
+	    -ms-transition:		all 0.5s cubic-bezier(0, 1.04, .25, 1);
+	     -o-transition:		all 0.5s cubic-bezier(0, 1.04, .25, 1);
+		    transition:		all 0.5s cubic-bezier(0, 1.04, .25, 1);
+}
+.submenu2, .submenu3{
+	transition-property: margin-top, opacity
+}
+#menu2, #menu3{
+	transition-property: margin-top;
+	transition-duration: 0s;
+	transition-delay: 0.1s;
+}
+#main{
+	margin:0px auto;
+	padding:80px 20px;
+	width:800px;
+	color:#313131;
+}
+#main a{
+	color:#313131;
+	pointer-events: none;
+}
+
+#main h1, #main h2, #main h3{
+	color:#238fc7;
+	font-size:30px;
+	font-weight:600;
+	padding:5px 5px;
+	margin:0px 0px 10px;
+	clear:both;
+	width:100%;
+}
+#main h2{
+	font-size:25px;
+	font-weight:500;
+}
+#main h3{
+	font-size:23px;
+	font-weight:200;
+}
+
+.home{
+	width:100%;
+}
+
+.empty{
+	height:100%;
+	background: #fff;
+}
+.full{
+	height:auto;
+	background: #fff;
+}
+.hideHome{
+	opacity:0;
+	pointer-events: none;
+}
+.showLogInBar{
+	margin-right:10%;
+}
+eduCon{
+	width:100%;
+	height:auto;
+	poisition:absolute;
+}

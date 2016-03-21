@@ -1,0 +1,7 @@
+Mirror in progress since Mon, 14 Mar 2016 10:52:01 .. please wait!
+winhttrack https://en.wikipedia.org/wiki/Main_Page -W -O "/Users/imben/Code/Wikipedia_Brief" -%v 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=21162
+UID=502
+GID=502
+START=1457952721

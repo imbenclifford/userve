@@ -1,0 +1,16 @@
+What i just did is to seek your consent on what next..
+so just feel free alert me as to any feature to add.
+
+Create a database by name: userve
+import the sql file named: students and thats all.
+
+required......
+I created de welcome page that will come after de user registered just for testing purpose. but i didn't put in any content..
+so u can add some markup to it, in case u want the user to be redirected there after registering, but if otherwise then let me know 
+
+
+
+Incude a logout link in the welcome or any page the user will be redirected to after login. and set the href="logout.php"
+
+I have created a folder by name admin. pls create a folder that will will contain the sign in form(only) and  a page that
+will come after he logs in. in this page he will be able to upload pdf files and other files u think appropriate.
