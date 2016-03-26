@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="css/simple.css"/>
 		<link rel="stylesheet" href="css/search.css"/>
 		<link rel="stylesheet" href="css/lm.css"/>
-		<script src="jquery-1.12.1.min.js"></script>
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"/> -->
+		<script src="js/jquery-1.12.1.min.js"></script>
 		<script src="js/search.js"></script>
         <script src="js/script.js"></script>
 	</head>
@@ -26,7 +27,7 @@
 			</header>
 			<div id="content">
 
-				<div class="login_bar">
+				<!-- <div class="login_bar">
 					<div id="signIn">
 						<table id="login_table">
 							<form  method="POST" action="login.php" autocomplete="off">
@@ -48,9 +49,9 @@
 							</form>
 						</table>
 						<p id="example-show">New? Create Account</p>
-	                </div>
+	                </div> -->
 
-	                <div id="signUp">
+	                <!-- <div id="signUp">
 						<table id="login_table">
 							<form method="POST" action="register.php" autocomplete="off">
 								<td>
@@ -87,10 +88,10 @@
 							</form>
 						</table>
 						<p id="logInBox" class="showLink">Have an account? SignIn</p>
-					</div>
+					</div> -->
 
-				</div>
-				<div id="content_page">
+				<!-- </div> -->
+				<!-- <div id="content_page">
 					<h1>
 						<span>u</span><br>
 						<span>S</span>
@@ -116,16 +117,16 @@
 						<path d="M27.7,3H4.3C3,3,2,3.7,2,5v15.6C2,21.8,3,23,4.3,23H15v3H9.5c-0.9,0-1.5,0.1-1.9,0.4C7,26.9,7,28,7,28h18
 							c0-0.6,0-1.1-0.4-1.5c-0.4-0.4-1-0.5-1.9-0.5H17v-3h10.7c1.3,0,2.3-1.2,2.3-2.4V5C30,3.7,29,3,27.7,3z M28,20.7
 							c0,0.2-0.1,0.3-0.3,0.3H4.3C4.1,21,4,20.9,4,20.7V5.3C4,5.1,4.1,5,4.3,5h23.4C27.9,5,28,5.1,28,5.3V20.7z"/>
-					</svg>-->
-				</div>
-
+					</svg>
+				</div> -->
+<!--
 				<footer id="footer">
 					<p>Copyright &copy;2014 Creativity Group Ghana, All rights reserved.</p>
-				</footer>
+				</footer> -->
 			</div>
 		</div>
 		<div class="home">
-			<div class="loginButton two">
+			<!-- <div class="loginButton two">
 				<p>Login</p>
 				<svg version="1.1" id="hamburgerLines" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
@@ -135,7 +136,7 @@
 						<rect x="3" y="21" width="26" height="2"/>
 					</g>
 				</svg>
-			</div>
+			</div> -->
 		<div id="topBar">
 			<div id="midTopBar">
 				<img src="images/onoff.png"><header>uServe</header>
@@ -177,44 +178,39 @@
 				</li>
 			</ul>
 		</div>
-		<div id="mainContent">
-			<div id="searchArea">
-				<form id="search">
-					<input id="searchBar" placeholder="search" required>
-					<input id="searchButton" type="submit" value="">
-				</form>
-			</div>
-			<div id="results">
-			</div>
-			<div id="links">
-				<div id="kiwix">
-					<a id="kiwixLink" href='/Wikipedia_Brief/index.html'>
-						<div id="kiwiLogo">
-							<img src="images/kiwix.jpg"/>
-						</div>
-						<p>WIKIPEDIA</p>
-					</a>
-				</div>
-				<div id="customContent">
-					<a>
-						<div id="ccLogo">
-							<img src="images/essential-regular-43-off.svg">
-						</div>
-						<p>uServe</p>
-					</a>
-				</div>
-				<div id="kalite">
-					<a id="kaliteLink" href="localhost:8008">
-						<div id="kaliteLogo">
-							<img src="images/kalite.jpg">
-						</div>
-						<p>KHAN<br>ACADEMY</p>
-					</a>
-				</div>
-			</div>
+		<div id="searchArea">
+			<form id="search" onsubmit="return false">
+				<input id="searchBar" placeholder="search" required>
+				<button id="searchButton" type="submit"></button>
+			</form>
 		</div>
-		<div id="eduCon">
-
+		<div id="results">
+		</div>
+		<div id="links">
+			<div id="kiwix">
+				<a id="kiwixLink" href='http://localhost:8007/simple.wikipedia.org/wiki/Main_Page.html'>
+					<div id="kiwiLogo">
+						<img src="images/kiwix.jpg"/>
+					</div>
+					<p>WIKIPEDIA</p>
+				</a>
+			</div>
+			<div id="customContent">
+				<a>
+					<div id="ccLogo">
+						<img src="images/essential-regular-43-off.svg">
+					</div>
+					<p>uServe</p>
+				</a>
+			</div>
+			<div id="kalite">
+				<a id="kaliteLink" href="http://127.0.0.1:8008/">
+					<div id="kaliteLogo">
+						<img src="images/kalite.jpg">
+					</div>
+					<p>KHAN<br>ACADEMY</p>
+				</a>
+			</div>
 		</div>
 		<footer id="footer">
 			<p>Copyright &copy;2014 Creativity Group Ghana, All rights reserved.</p>

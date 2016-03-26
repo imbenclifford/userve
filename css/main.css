@@ -8,19 +8,19 @@ a{cursor: pointer;}
 body, html{
 	height: 100%;
 	width: 100%;
-	background:url(../images/home3.jpg);
+	/*background:url(../images/home3.jpg);*/
 	background-size:cover;
 	background-attachment: fixed;
 	min-width: 500px;
 }
 
-#big_wrapper{
+/*#big_wrapper{
 	height: 100%;
 	width: 100%;
 	background:rgba(33, 33, 33, 0.74);
 	overflow:hidden;
 	position:fixed;
-}
+}*/
 
 .login_bar{
 	width: 25%;
@@ -28,7 +28,7 @@ body, html{
 	height: 100%;
 	margin-right:-100%;
 	background:     -webkit-linear-gradient(rgba(255, 0, 0, 0.6), rgba(235, 255, 0, 0.6), rgba(29, 255, 0, 0.6));
-    background:        -moz-linear-gradient(rgba(255, 0, 0, 0.6), rgba(235, 255, 0, 0.6), rgba(29, 255, 0, 0.6)); 
+    background:        -moz-linear-gradient(rgba(255, 0, 0, 0.6), rgba(235, 255, 0, 0.6), rgba(29, 255, 0, 0.6));
     background:          -o-linear-gradient(rgba(255, 0, 0, 0.6), rgba(235, 255, 0, 0.6), rgba(29, 255, 0, 0.6));
     background:             linear-gradient(rgba(255, 0, 0, 0.6), rgba(235, 255, 0, 0.6), rgba(29, 255, 0, 0.6));
 	float: right;
@@ -39,7 +39,7 @@ body, html{
 }
 
 #content_page{
-	width: 75%; 
+	width: 75%;
 	height: 100%;
 	display:table;
 }
@@ -97,9 +97,9 @@ body, html{
 	color: rgb(0, 167, 255);
 	text-align: center;
 	height: 20px;
-	position:fixed;
+	/*position:fixed;*/
 	bottom: 0px;
-	
+
 }
 #footer p{
 	font-size: 12px;

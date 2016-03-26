@@ -4,5 +4,16 @@ div#results a {
 
 #results {
     background-color: #fff;
-    height: 100%;
+    display: inline-block;
+    width: 100%;
+    min-height: 100px;
+}
+
+.results-list {
+    list-style: none;
+    margin-left: 100px;
+}
+
+.results-list li {
+    padding: 10px;
 }
