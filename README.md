@@ -1,6 +1,6 @@
 # uServe
 
-This is a README for the software side of the uServe project on 26/3/2016, after Ben Clifford, a volunteer worked on it.
+This is a README for the software side of the uServe project on 26/3/2016, after Ben Clifford, a volunteer worked on it. The codebase here is for the uServe site - see component 1 below.
 
 ##Contact
 Ben - imbenclifford@gmail.com
